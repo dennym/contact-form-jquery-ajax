@@ -1,0 +1,33 @@
+<!doctype html>  
+<head>
+	<meta charset="utf-8">
+	
+	<title>contact form using jquery ajax handler</title>
+
+	<meta name="description" content="contact form using jquery ajax handler">
+	<meta name="author" content="humans.txt">
+	<meta name="keywords" content="contact, form, jquery, ajax">
+	<meta name="publisher" content="Denny Mueller">
+	
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+	
+<body>
+	<div id="form">
+		<h2>Contact</h2>
+		<form id="contactForm" action="mail.php" method="post">
+			<input type="text" id="name" name="name" placeholder="insert your name" required><br />
+			<input type="text" id="email" name="email" placeholder="insert your email" required><br />
+			<textarea name="message" id="message" placeholder="say something" required></textarea><br />
+			<button name="submit" type="submit" id="submit">send</button>
+		</form>
+	</div>
+</body>		
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="js/contact_form.js"></script>
+</html>
