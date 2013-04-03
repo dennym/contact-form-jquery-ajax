@@ -4,7 +4,7 @@ changing send button layout to sending while sending and to sent if successful o
 
 ### ToDo
 
-*Add delay before sent for showing sending bit more longer
-*animate 3 dots ... right after sending
-
+* Add delay before sent for showing sending bit more longer
+* animate 3 dots ... right after sending
 sending ...
+* add explanation of code to readme
